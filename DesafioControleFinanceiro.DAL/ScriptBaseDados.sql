@@ -11,7 +11,7 @@ GO
 ALTER DATABASE [Desafio] SET COMPATIBILITY_LEVEL = 120
 GO
 IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
-begin --tarefa 1
+begin --tarefa 2
 EXEC [Desafio].[dbo].[sp_fulltext_database] @action = 'enable'
 end
 GO
